@@ -1,0 +1,353 @@
+<title>Eyeshot Privacy Policy</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&family=DM+Serif+Display&display=swap">
+<style>
+  :root {
+    --bg: #f7f7f5;
+    --surface: #ffffff;
+    --ink: #1a1a1a;
+    --ink-dim: #5a5a58;
+    --ink-faint: #9a9a96;
+    --accent: #2a9d8f;
+    --accent-light: #e6f5f3;
+    --border: #e4e4e0;
+    --radius: 10px;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #111210;
+      --surface: #1c1d1b;
+      --ink: #efefea;
+      --ink-dim: #9a9a94;
+      --ink-faint: #5a5a54;
+      --accent: #2db5a3;
+      --accent-light: #1a2e2c;
+      --border: #2a2b28;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --bg: #111210;
+    --surface: #1c1d1b;
+    --ink: #efefea;
+    --ink-dim: #9a9a94;
+    --ink-faint: #5a5a54;
+    --accent: #2db5a3;
+    --accent-light: #1a2e2c;
+    --border: #2a2b28;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'DM Sans', system-ui, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 28px 24px;
+  }
+
+  .header-inner {
+    max-width: 720px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .logo-mark {
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+    background: var(--accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .logo-mark svg { width: 22px; height: 22px; }
+
+  .logo-text {
+    font-family: 'DM Serif Display', serif;
+    font-size: 20px;
+    color: var(--ink);
+    letter-spacing: -0.01em;
+  }
+
+  .logo-text span {
+    color: var(--accent);
+  }
+
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+
+  .doc-header {
+    margin-bottom: 48px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .doc-label {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 12px;
+  }
+
+  h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(28px, 5vw, 38px);
+    font-weight: 400;
+    line-height: 1.15;
+    color: var(--ink);
+    text-wrap: balance;
+    margin-bottom: 16px;
+  }
+
+  .doc-meta {
+    font-size: 13px;
+    color: var(--ink-faint);
+  }
+
+  .summary-box {
+    background: var(--accent-light);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 var(--radius) var(--radius) 0;
+    padding: 20px 24px;
+    margin-bottom: 48px;
+    font-size: 14px;
+    color: var(--ink-dim);
+    line-height: 1.65;
+  }
+
+  .summary-box strong {
+    color: var(--ink);
+    font-weight: 500;
+  }
+
+  section {
+    margin-bottom: 40px;
+  }
+
+  h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--ink);
+    margin-bottom: 14px;
+    padding-top: 8px;
+  }
+
+  p {
+    color: var(--ink-dim);
+    margin-bottom: 14px;
+    font-size: 15px;
+    max-width: 66ch;
+  }
+
+  p:last-child { margin-bottom: 0; }
+
+  ul {
+    list-style: none;
+    margin-bottom: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  ul li {
+    color: var(--ink-dim);
+    font-size: 15px;
+    padding-left: 20px;
+    position: relative;
+    max-width: 66ch;
+  }
+
+  ul li::before {
+    content: '–';
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+    font-weight: 500;
+  }
+
+  .divider {
+    height: 1px;
+    background: var(--border);
+    margin: 40px 0;
+  }
+
+  .contact-block {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 28px 32px;
+    margin-top: 48px;
+  }
+
+  .contact-block h2 {
+    margin-bottom: 10px;
+  }
+
+  .contact-block a {
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 15px;
+  }
+
+  .contact-block a:hover {
+    text-decoration: underline;
+  }
+
+  footer {
+    text-align: center;
+    padding: 32px 24px;
+    font-size: 12px;
+    color: var(--ink-faint);
+    border-top: 1px solid var(--border);
+  }
+</style>
+
+<header>
+  <div class="header-inner">
+    <div class="logo-mark">
+      <svg viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="11" cy="11" r="9" stroke="white" stroke-width="1.5" opacity="0.5"/>
+        <circle cx="11" cy="11" r="5" stroke="white" stroke-width="1.5" opacity="0.75"/>
+        <circle cx="11" cy="11" r="2" fill="white"/>
+      </svg>
+    </div>
+    <div class="logo-text">Eye<span>shot</span></div>
+  </div>
+</header>
+
+<main>
+  <div class="doc-header">
+    <div class="doc-label">Legal</div>
+    <h1>Privacy Policy</h1>
+    <p class="doc-meta">Last updated: September 2026 &nbsp;·&nbsp; Effective immediately</p>
+  </div>
+
+  <div class="summary-box">
+    <strong>The short version:</strong> Eyeshot is built around discretion. We collect the minimum data needed to make proximity discovery work. We never sell your data, never track your exact location, and we designed the app so that you are always in control of your visibility.
+  </div>
+
+  <section>
+    <h2>1. Who we are</h2>
+    <p>Eyeshot ("the app", "we", "our") is a proximity-based social discovery application. When we say "you" or "user", we mean anyone who downloads, installs, or uses Eyeshot.</p>
+    <p>For questions about this policy, contact us at: <strong>t_d_s1@hotmail.com</strong></p>
+  </section>
+
+  <div class="divider"></div>
+
+  <section>
+    <h2>2. What data we collect</h2>
+    <p>We collect only what is necessary for the app to function:</p>
+    <ul>
+      <li><strong>Profile information</strong> you choose to provide: name, age, a short bio, and optionally a photo.</li>
+      <li><strong>Approximate location</strong> (GPS), rounded to a ~50-metre zone. We never store your exact coordinates — only a coarse grid cell used to find others in the same place.</li>
+      <li><strong>Device identifier</strong> — a one-way hash used to create your anonymous account. This cannot be reversed to identify your device.</li>
+      <li><strong>Push notification token</strong> — so we can deliver match and message alerts.</li>
+      <li><strong>Messages</strong> you send through the in-app chat. These are stored encrypted and automatically deleted when a match expires.</li>
+    </ul>
+    <p>We do <strong>not</strong> collect: your phone number, email address, social media profiles, contacts, or any financial information.</p>
+  </section>
+
+  <div class="divider"></div>
+
+  <section>
+    <h2>3. How we use your data</h2>
+    <p>Your data is used solely to operate the app:</p>
+    <ul>
+      <li>Showing you other users in your immediate vicinity during an active session.</li>
+      <li>Delivering Spark notifications and match alerts.</li>
+      <li>Enabling in-app messaging between matched users.</li>
+      <li>Improving app stability through anonymised crash reports.</li>
+    </ul>
+    <p>We never use your data for advertising profiling, third-party marketing, or automated decision-making that produces legal effects.</p>
+  </section>
+
+  <div class="divider"></div>
+
+  <section>
+    <h2>4. Your presence and visibility</h2>
+    <p>Eyeshot is session-based by design. You are <strong>never visible</strong> unless you explicitly start a session. The moment your session ends — whether by your choice, by timeout, or by closing the app — your presence record is removed from our servers.</p>
+    <p>You can also activate Invisible Mode at any time, which immediately removes you from all discovery without ending your session.</p>
+  </section>
+
+  <div class="divider"></div>
+
+  <section>
+    <h2>5. Data sharing and third parties</h2>
+    <p>We do not sell your data. We share minimal data with the following service providers, solely to operate the app:</p>
+    <ul>
+      <li><strong>Supabase</strong> (EU – Frankfurt) — database and real-time infrastructure. Data is stored within the European Union.</li>
+      <li><strong>Expo / EAS</strong> — push notification delivery.</li>
+      <li><strong>Google Firebase</strong> — push notifications on Android.</li>
+    </ul>
+    <p>All providers are bound by data processing agreements and are prohibited from using your data for their own purposes.</p>
+  </section>
+
+  <div class="divider"></div>
+
+  <section>
+    <h2>6. Data retention</h2>
+    <ul>
+      <li><strong>Presence data</strong> is deleted at session end.</li>
+      <li><strong>Match and message data</strong> expires automatically after 7 days.</li>
+      <li><strong>Profile data</strong> is retained until you delete your account.</li>
+      <li><strong>Account deletion</strong> removes all associated data from our servers within 30 days.</li>
+    </ul>
+  </section>
+
+  <div class="divider"></div>
+
+  <section>
+    <h2>7. Your rights</h2>
+    <p>Depending on where you live, you may have the right to access, correct, or delete your personal data, and to object to or restrict certain processing. To exercise any of these rights, contact us at the address below. We will respond within 30 days.</p>
+    <p>You can delete your account and all associated data directly within the app at any time: Settings → Delete account.</p>
+  </section>
+
+  <div class="divider"></div>
+
+  <section>
+    <h2>8. Children</h2>
+    <p>Eyeshot is not intended for users under the age of 18. We do not knowingly collect personal data from minors. If you believe a minor has created an account, please contact us and we will delete it promptly.</p>
+  </section>
+
+  <div class="divider"></div>
+
+  <section>
+    <h2>9. Security</h2>
+    <p>We use industry-standard measures to protect your data, including TLS encryption in transit and encrypted storage at rest. No method of transmission or storage is 100% secure; we commit to notifying affected users promptly in the event of a breach.</p>
+  </section>
+
+  <div class="divider"></div>
+
+  <section>
+    <h2>10. Changes to this policy</h2>
+    <p>If we make material changes to this policy, we will notify you through the app before the changes take effect. Continued use of Eyeshot after that date constitutes acceptance of the revised policy.</p>
+  </section>
+
+  <div class="contact-block">
+    <h2>Contact</h2>
+    <p style="margin-bottom:10px;">Questions, requests, or concerns about this policy:</p>
+    <a href="mailto:t_d_s1@hotmail.com">t_d_s1@hotmail.com</a>
+  </div>
+</main>
+
+<footer>
+  © 2026 Eyeshot · All rights reserved
+</footer>
